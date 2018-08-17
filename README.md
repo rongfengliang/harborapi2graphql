@@ -1,6 +1,6 @@
-# swagger2graphql demo project
+# harbor api 2 graphql api
 
-> this is a basic demo project for complex useage see below link
+use swagger-to-graphql  
 
 [swagger-to-graphql](https://github.com/yarax/swagger-to-graphql)
 
@@ -28,10 +28,9 @@ docker-compose  up -d
 open http://hostip:3009/graphql for search
 ```
 
-* direct with build images
+* access
 
 ```code
-docker run  -d -p 3009:3009 dalongrong/swagger-graphql
 
 open http://hostip:3009/graphql for search
 ```
