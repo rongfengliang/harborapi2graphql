@@ -35,6 +35,20 @@ open http://hostip:3009/graphql for search
 open http://hostip:3009/graphql for search
 ```
 
+## auth 
+
+```code
+with basic auth 
+
+http(s)://username:password@harborserver/api
+
+or
+
+with header
+
+Authorization: "Basic base64(username+password)"
+
+```
 ## some images
 
 ![images](./images/info.png)
